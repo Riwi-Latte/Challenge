@@ -27,13 +27,6 @@ public class ParkingService {
     //     String exitTime = JOptionPane.showInputDialog("Enter the exit time (HH:mm):");
     //     ticket.setExitTime(exitTime);
         
-<<<<<<< HEAD
-        // Logic for calculating fee and displaying receipt can be added here
-    }
-}
-
-=======
     //     // Logic for calculating fee and displaying receipt can be added here
     // }
 }
->>>>>>> 58705761478a07a58f3cfb4fc92dc3448039c00b
