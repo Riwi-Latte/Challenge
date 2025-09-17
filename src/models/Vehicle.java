@@ -4,12 +4,19 @@ public class Vehicle {
     private String licensePlate;
     private String type; // MOTORCYCLE, CAR, SUV
     private int level;
+    private String entryTime;
+    private String exitTime;
+    private String membership;
+    private String convenio;
 
-    public Vehicle(String licensePlate, String type, int level) {
+    public Vehicle(String licensePlate, String type, int level, String entryTime) {
         this.licensePlate = licensePlate;
         this.type = type;
         this.level = level;
+        this.entryTime = entryTime;
     }
+
+
 
     public String getLicensePlate() {
         return licensePlate;
@@ -33,5 +40,9 @@ public class Vehicle {
 
     public void setLevel(int level) {
         this.level = level;
+    }
+
+    public void setExitTime(String exitTime) {
+        this.exitTime = exitTime;
     }
 }
