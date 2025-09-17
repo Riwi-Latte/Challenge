@@ -1,3 +1,5 @@
+package models;
+
 public class Membership {
     private String licensePlate;
     private String membershipType; // BASIC, PLUS, PREMIUM

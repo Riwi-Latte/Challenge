@@ -1,3 +1,5 @@
+package services;
+
 public class ReportService {
 
     // Method to generate a report of the top 3 plates with the highest income

@@ -1,8 +1,5 @@
 package models;
 
-// Add this import statement
-import models.Vehicle;
-
 public class ParkingTicket {
     private Vehicle vehicle;
     private String entryTime;
