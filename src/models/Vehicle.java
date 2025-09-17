@@ -9,7 +9,7 @@ public class Vehicle {
     private String membership;
     private String convenio;
 
-    public Vehicle(String licensePlate, String type, int level, String entryTime, String exitTime, String membership, String convenio) {
+    public Vehicle(String licensePlate, String type, int level, String entryTime) {
         this.licensePlate = licensePlate;
         this.type = type;
         this.level = level;
