@@ -38,6 +38,18 @@ public class Vehicle {
         return level;
     }
 
+    public String getMembership() {
+        return membership;
+    }
+
+    public String getEntryTime() {
+        return entryTime;
+    }
+
+    public String getExitTime() {
+        return exitTime;
+    }
+
     public void setLevel(int level) {
         this.level = level;
     }
