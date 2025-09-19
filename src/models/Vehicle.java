@@ -1,15 +1,17 @@
 package models;
 
+import java.time.LocalDateTime;
+
 public class Vehicle {
     private String licensePlate;
     private String type; // MOTORCYCLE, CAR, SUV
     private int level;
-    private String entryTime;
-    private String exitTime;
+    private LocalDateTime entryTime;
+    private LocalDateTime exitTime;
     private String membership;
-    private String convenio;
 
-    public Vehicle(String licensePlate, String type, int level, String entryTime) {
+
+    public Vehicle(String licensePlate, String type, int level, LocalDateTime entryTime) {
         this.licensePlate = licensePlate;
         this.type = type;
         this.level = level;
@@ -42,11 +44,11 @@ public class Vehicle {
         return membership;
     }
 
-    public String getEntryTime() {
+    public LocalDateTime getEntryTime() {
         return entryTime;
     }
 
-    public String getExitTime() {
+    public LocalDateTime getExitTime() {
         return exitTime;
     }
 
@@ -54,7 +56,7 @@ public class Vehicle {
         this.level = level;
     }
 
-    public void setExitTime(String exitTime) {
+    public void setExitTime(LocalDateTime exitTime) {
         this.exitTime = exitTime;
     }
 }
