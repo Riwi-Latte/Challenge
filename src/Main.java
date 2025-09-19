@@ -2,7 +2,6 @@
 // This is the entry point of the Park4U application.
 
 import javax.swing.JOptionPane;
-
 import services.CashService;
 import services.ParkingService;
 
@@ -27,8 +26,8 @@ public class Main {
                     parkingService.registerEntry();
                     break;
                 case 2:
-                    // Call method to register exit
-                    // parkingService.registerExit();
+                    parkingService.registerExit();
+                    
                 case 3:
                     // Memberships
                     break;
